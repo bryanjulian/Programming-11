@@ -1,0 +1,8 @@
+print ("This program calculates the area of a trapezoid.")
+Height = input("Enter the height:")
+Height = float(Height)
+a = input("Enter length of top base:")
+a = float(a)
+b = input("Enter length of bottom base:")
+b = float(b)
+print ("The area is:", (a + b) * Height / 2)
